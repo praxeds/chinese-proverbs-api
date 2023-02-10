@@ -78,3 +78,9 @@ https://chinese-proverbs.onrender/api/proverbs?page=1&limit=10
     ```shell
     npm start
     ```
+
+<br/>
+
+## Contributions are welcome! 🎉
+
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy)
