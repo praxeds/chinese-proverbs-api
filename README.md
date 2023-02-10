@@ -14,6 +14,7 @@
 |    POST     |    api/proverbs/    | adds new proverb to database  |
 |     GET     |  api/proverbs/all   |     returns all proverbs      |
 |     GET     | api/proverbs/random |    returns random proverb     |
+|     PUT     |  api/proverbs/:id   |        updates proverb        |
 |   DELETE    |  api/proverbs/:id   | deletes proverb from database |
 
 <br/>

@@ -29,6 +29,16 @@ const ProverbController = {
       console.log(error);
     }
   },
+  update: async (req, res) => {
+    try {
+      const proverb = await Proverb.findByIdAndUpdate(req.params.id, req.body, {
+        new: true,
+      });
+      res.json(proverb);
+    } catch (error) {
+      console.log(error);
+    }
+  },
   getAll: async (req, res) => {
     try {
       const proverb = await Proverb.find();
