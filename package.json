@@ -1,0 +1,27 @@
+{
+  "name": "chinese-proverbs-api",
+  "version": "1.0.0",
+  "description": "API for Chinese Proverbs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/index.js",
+    "server": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/praxeds/chinese-proverbs-api.git"
+  },
+  "keywords": [],
+  "author": "Juliana Praxedes",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^6.9.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
