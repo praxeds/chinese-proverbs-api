@@ -9,11 +9,12 @@
 
 # Chinese Proverbs API
 
-| HTTP Method |      Endpoint       |         What it does         |
-| :---------: | :-----------------: | :--------------------------: |
-|    POST     |    api/proverbs/    | adds new proverb to database |
-|     GET     |  api/proverbs/all   |     returns all proverbs     |
-|     GET     | api/proverbs/random |    returns random proverb    |
+| HTTP Method |      Endpoint       |         What it does          |
+| :---------: | :-----------------: | :---------------------------: |
+|    POST     |    api/proverbs/    | adds new proverb to database  |
+|     GET     |  api/proverbs/all   |     returns all proverbs      |
+|     GET     | api/proverbs/random |    returns random proverb     |
+|   DELETE    |  api/proverbs/:id   | deletes proverb from database |
 
 <br/>
 

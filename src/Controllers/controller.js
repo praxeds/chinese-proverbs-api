@@ -21,6 +21,14 @@ const ProverbController = {
       });
     }
   },
+  delete: async (req, res) => {
+    try {
+      const proverb = await Proverb.findByIdAndDelete(req.params.id);
+      res.json(proverb);
+    } catch (error) {
+      console.log(error);
+    }
+  },
   getAll: async (req, res) => {
     try {
       const proverb = await Proverb.find();
