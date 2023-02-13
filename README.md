@@ -32,7 +32,7 @@ Example:
 
 ```bash
 📃  First page showing 10 proverbs
-https://chinese-proverbs.onrender/api/proverbs?page=1&limit=10
+https://chinese-proverbs.onrender.com/api/proverbs?page=1&limit=10
 ```
 
 ## JSON Data Model Example
